@@ -362,7 +362,11 @@ main section:nth-child(2) {
 .top-product-theme {
     display: flex;
     justify-content: center;
-    margin: 50px 0 0;
+    align-items: center;
+}
+
+.top-product-theme div {
+    margin-top: 30px;
 }
 
 .top-product-theme div i {
@@ -370,6 +374,11 @@ main section:nth-child(2) {
     font-size: 30px;
     color: #523d1f;
     margin: 0 10px;
+    transition: all .5s ease;
+}
+
+.top-product-theme div i:hover {
+    font-weight: 800;
 }
 
 /* ====top=== product---end=== */
